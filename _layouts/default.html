@@ -41,6 +41,10 @@
 
           checkbox.checked = false;
         }, false);
+        
+        if(!mobileAndTabletcheck()) {
+          checkbox.checked = true;
+        }
       })(document);
     </script>
   </body>
