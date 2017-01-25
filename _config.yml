@@ -11,7 +11,7 @@ tagline:          	'Arduino para iniciantes'
 description:      	'Tutoriais e dicas de desenvolvimento para ESP8266, Arduino, seus respectivos módulos e sensores.'
 url:                 https://esp8266br.github.io
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 # About/contact
 author:
