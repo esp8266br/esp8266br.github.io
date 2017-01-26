@@ -1,8 +1,4 @@
-.share-box a:hover {
-  	text-decoration: none;
-}
-
-.share-box a:active {
+.share-box a {
   	text-decoration: none;
 }
 
