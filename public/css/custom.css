@@ -1,6 +1,9 @@
+.share-box a:hover {
+  	text-decoration: none;
+}
+
 .share-button {
     margin: 0px;
-    border: 1px solid #D3D6D2;
     padding: 5px 10px 5px 10px;
     opacity: 0.8;
 }
