@@ -2,6 +2,10 @@
   	text-decoration: none;
 }
 
+.share-box a:active {
+  	text-decoration: none;
+}
+
 .share-button {
     margin: 0px;
     padding: 5px;
