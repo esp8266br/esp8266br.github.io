@@ -24,3 +24,7 @@ version:             1.0.0
 # Repo
 github:
   repo:           	 https://github.com/esp8266br?tab=repositories
+
+# Plugins
+gems:
+  - jekyll-sitemap
