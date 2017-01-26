@@ -3,17 +3,20 @@ layout: page
 title: Tutoriais
 published: true
 ---
-<div class="related">
-  <ul class="related-posts">
-    {% for post in site.posts %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date: "%d/%m/%Y" }}</small>
-          </a>
-        </h3>
-      </li>
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+    
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
     {% endfor %}
-  </ul>
+  </div>
+{% endfor %}
 </div>
