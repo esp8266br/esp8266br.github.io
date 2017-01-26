@@ -31,3 +31,7 @@
 .fa-twitter {
     color: #4099FF;
 }
+
+.masthead-title a {
+  margin-right: 20px;
+}
